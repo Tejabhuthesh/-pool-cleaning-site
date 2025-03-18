@@ -1,94 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TEJABHUTHESH POOL SERVICES</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #e0f7fa;
-      color: #006064;
+      color: #004d40;
       margin: 0;
       padding: 0;
     }
+
     header {
+      background: linear-gradient(45deg, #00acc1, #007c91);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .services {
+      padding: 2rem;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .services h2 {
+      margin-bottom: 1rem;
+      color: #006064;
+    }
+
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .tile {
       background-color: #00acc1;
       color: white;
-      padding: 1rem;
+      padding: 20px;
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .tile:hover {
+      background-color: #007c91;
+      transform: scale(1.05);
+    }
+
+    .gallery {
+      padding: 2rem;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    .gallery h2 {
+      color: #006064;
+      margin-bottom: 1rem;
+    }
+
+    .gallery-images {
       display: flex;
-      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
     }
-    .logo {
-      margin-right: 1rem;
+
+    .gallery-images img {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
-    .logo img {
-      height: 50px;
-    }
-    .header-text {
-      flex-grow: 1;
-    }
-    .services, .contact {
-      padding: 1.5rem;
+
+    .contact {
+      background-color: #ffffff;
+      padding: 2rem;
       text-align: center;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
+
+    .contact h2 {
+      color: #006064;
     }
+
     footer {
       background-color: #004d40;
       color: white;
       padding: 1rem;
       text-align: center;
     }
-    .gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .gallery img {
-      margin: 10px;
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-    }
   </style>
 </head>
+
 <body>
   <header>
-    <div class="logo">
-      <a href="https://www.google.com/maps/place/Gachibowli,+Hyderabad,+Telangana" target="_blank">
-        <img src="path_to_your_logo_image/TB_logo.png" alt="TEJABHUTHESH POOL SERVICES Logo">
-      </a>
-    </div>
-    <div class="header-text">
-      <h1>TEJABHUTHESH POOL SERVICES</h1>
-      <p>Your pool, perfectly clean!</p>
-    </div>
+    <h1>TEJABHUTHESH POOL SERVICES</h1>
+    <p>Your pool, perfectly clean!</p>
   </header>
 
   <section class="services">
     <h2>Our Services</h2>
-    <ul>
-      <li>✔️ Weekly Pool Cleaning</li>
-      <li>✔️ Chemical Balancing</li>
-      <li>✔️ Filter Maintenance</li>
-      <li>✔️ Pool Equipment Repair</li>
-    </ul>
+    <div class="tiles">
+      <div class="tile">✔️ Weekly Pool Cleaning</div>
+      <div class="tile">✔️ Chemical Balancing</div>
+      <div class="tile">✔️ Filter Maintenance</div>
+      <div class="tile">✔️ Pool Equipment Repair</div>
+    </div>
   </section>
 
   <section class="gallery">
     <h2>Our Work in Gachibowli</h2>
-    <img src="path_to_your_image/pool_cleaning1.jpg" alt="Pool Cleaning Service 1">
-    <img src="path_to_your_image/pool_cleaning2.jpg" alt="Pool Cleaning Service 2">
-    <img src="path_to_your_image/pool_cleaning3.jpg" alt="Pool Cleaning Service 3">
+    <div class="gallery-images">
+      <img src="https://insights.workwave.com/wp-content/uploads/2021/01/swimming-pool-maintenance-picture-id1132898837.jpg" alt="Pool Cleaning 1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU9TgVoqD21cI9Cs4ok-" alt="Pool Cleaning 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnhS51wiOuntZyZPNjekb9aeJoOpintGB0A&s3njF4sTUGVJZxlg&s" alt="Pool Cleaning 3">
+    </div>
   </section>
 
   <section class="contact">
     <h2>Contact Us</h2>
     <p>📞 Call: 6281245810-CLEAN</p>
     <p>📧 Email: tejainfo@bluewave.com</p>
+    <p><a href="https://www.google.com/maps/place/Gachibowli,+Hyderabad,+Telangana" target="_blank">📍 Visit Us in Gachibowli, Hyderabad</a></p>
   </section>
 
   <footer>
