@@ -1,117 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TejaBhuthesh Pool Services</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEJABHUTHESH POOL SERVICES</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #00c6ff, #0072ff);
-      color: #ffffff;
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      color: #006064;
       margin: 0;
       padding: 0;
     }
-
     header {
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-    }
-
-    header p {
-      margin-top: 0.5rem;
-      font-style: italic;
-    }
-
-    .tiles-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 2rem;
-      gap: 1rem;
-    }
-
-    .tile {
-      background-color: #ffffff;
-      color: #333333;
-      border-radius: 12px;
-      padding: 2rem;
-      width: 220px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.3s, background-color 0.3s;
-    }
-
-    .tile:hover {
-      transform: scale(1.05);
-      background-color: #e0f7fa;
-    }
-
-    .tile h3 {
-      margin-bottom: 1rem;
-      color: #0072ff;
-    }
-
-    .contact {
-      background-color: rgba(0, 0, 0, 0.4);
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .contact p {
-      margin: 0.5rem 0;
-      font-size: 1.1rem;
-    }
-
-    footer {
-      background-color: #003049;
-      color: #ffffff;
-      text-align: center;
+      background-color: #00acc1;
+      color: white;
       padding: 1rem;
-      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      margin-right: 1rem;
+    }
+    .logo img {
+      height: 50px;
+    }
+    .header-text {
+      flex-grow: 1;
+    }
+    .services, .contact {
+      padding: 1.5rem;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      margin: 10px;
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>TejaBhuthesh Pool Services</h1>
-    <p>Making Your Pool Sparkle & Shine!</p>
+    <div class="logo">
+      <a href="https://www.google.com/maps/place/Gachibowli,+Hyderabad,+Telangana" target="_blank">
+        <img src="path_to_your_logo_image/TB_logo.png" alt="TEJABHUTHESH POOL SERVICES Logo">
+      </a>
+    </div>
+    <div class="header-text">
+      <h1>TEJABHUTHESH POOL SERVICES</h1>
+      <p>Your pool, perfectly clean!</p>
+    </div>
   </header>
 
-  <section class="tiles-container">
-    <div class="tile">
-      <h3>🧽 Weekly Cleaning</h3>
-      <p>Regular cleaning & brushing for clear waters.</p>
-    </div>
-    <div class="tile">
-      <h3>⚗️ Chemical Balance</h3>
-      <p>Perfect pH & chlorine levels for safe swimming.</p>
-    </div>
-    <div class="tile">
-      <h3>🔧 Filter Maintenance</h3>
-      <p>Keep filters clean & effective year-round.</p>
-    </div>
-    <div class="tile">
-      <h3>🛠️ Equipment Repair</h3>
-      <p>Quick fix for pumps, heaters & more!</p>
-    </div>
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✔️ Weekly Pool Cleaning</li>
+      <li>✔️ Chemical Balancing</li>
+      <li>✔️ Filter Maintenance</li>
+      <li>✔️ Pool Equipment Repair</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Work in Gachibowli</h2>
+    <img src="path_to_your_image/pool_cleaning1.jpg" alt="Pool Cleaning Service 1">
+    <img src="path_to_your_image/pool_cleaning2.jpg" alt="Pool Cleaning Service 2">
+    <img src="path_to_your_image/pool_cleaning3.jpg" alt="Pool Cleaning Service 3">
   </section>
 
   <section class="contact">
-    <h2>📞 Contact Us</h2>
-    <p>Phone: 62812-45810</p>
-    <p>Email: tejainfo@poolservices.com</p>
-    <p>Location: Hyderabad, India</p>
+    <h2>Contact Us</h2>
+    <p>📞 Call: 6281245810-CLEAN</p>
+    <p>📧 Email: tejainfo@bluewave.com</p>
   </section>
 
   <footer>
-    <p>© 2025 TejaBhuthesh Pool Services. All rights reserved.</p>
+    <p>© 2025 TEJABHUTHESH POOL SERVICES. All rights reserved.</p>
   </footer>
 </body>
 </html>
