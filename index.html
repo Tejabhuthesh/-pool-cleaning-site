@@ -1,68 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TEJA Pool Cleaning</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TejaBhuthesh Pool Services</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e0f7fa;
-      color: #006064;
-      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: #ffffff;
       margin: 0;
       padding: 0;
     }
 
     header {
-      background-color: #00acc1;
-      color: white;
-      padding: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      text-align: center;
     }
 
-    .services, .contact {
-      padding: 1.5rem;
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
     }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    .tiles-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2rem;
+      gap: 1rem;
+    }
+
+    .tile {
+      background-color: #ffffff;
+      color: #333333;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .tile:hover {
+      transform: scale(1.05);
+      background-color: #e0f7fa;
+    }
+
+    .tile h3 {
+      margin-bottom: 1rem;
+      color: #0072ff;
+    }
+
+    .contact {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
     }
 
     footer {
-      background-color: #004d40;
-      color: white;
+      background-color: #003049;
+      color: #ffffff;
+      text-align: center;
       padding: 1rem;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>BlueWave Pool Cleaning Service</h1>
-    <p>Your pool, perfectly clean!</p>
+    <h1>TejaBhuthesh Pool Services</h1>
+    <p>Making Your Pool Sparkle & Shine!</p>
   </header>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>✔️ Weekly Pool Cleaning</li>
-      <li>✔️ Chemical Balancing</li>
-      <li>✔️ Filter Maintenance</li>
-      <li>✔️ Pool Equipment Repair</li>
-    </ul>
+  <section class="tiles-container">
+    <div class="tile">
+      <h3>🧽 Weekly Cleaning</h3>
+      <p>Regular cleaning & brushing for clear waters.</p>
+    </div>
+    <div class="tile">
+      <h3>⚗️ Chemical Balance</h3>
+      <p>Perfect pH & chlorine levels for safe swimming.</p>
+    </div>
+    <div class="tile">
+      <h3>🔧 Filter Maintenance</h3>
+      <p>Keep filters clean & effective year-round.</p>
+    </div>
+    <div class="tile">
+      <h3>🛠️ Equipment Repair</h3>
+      <p>Quick fix for pumps, heaters & more!</p>
+    </div>
   </section>
 
   <section class="contact">
-    <h2>Contact Us</h2>
-    <p>📞 Call: 6281245810-CLEAN</p>
-    <p>📧 Email: tejainfo@bluewave.com</p>
+    <h2>📞 Contact Us</h2>
+    <p>Phone: 62812-45810</p>
+    <p>Email: tejainfo@poolservices.com</p>
+    <p>Location: Hyderabad, India</p>
   </section>
 
   <footer>
-    <p>© 2025 Teja Pool Cleaning. All rights reserved.</p>
+    <p>© 2025 TejaBhuthesh Pool Services. All rights reserved.</p>
   </footer>
 </body>
 </html>
