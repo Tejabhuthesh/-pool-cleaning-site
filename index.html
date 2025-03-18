@@ -1,142 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TEJABHUTHESH POOL SERVICES</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrystalClear Pool Care - Gachibowli</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e0f7fa;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #e1f5fe, #b2ebf2);
       color: #004d40;
       margin: 0;
       padding: 0;
     }
 
     header {
-      background: linear-gradient(45deg, #00acc1, #007c91);
+      background: linear-gradient(to right, #00bcd4, #009688);
       color: white;
-      text-align: center;
-      padding: 2rem;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
-    header h1 {
+    header img {
+      height: 70px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
       margin: 0;
       font-size: 2rem;
     }
 
-    .services {
+    .tagline {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .services, .contact {
       padding: 2rem;
       text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    li {
       background-color: #ffffff;
-    }
-
-    .services h2 {
-      margin-bottom: 1rem;
-      color: #006064;
-    }
-
-    .tiles {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .tile {
-      background-color: #00acc1;
-      color: white;
-      padding: 20px;
-      width: 250px;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s, background-color 0.3s;
-    }
-
-    .tile:hover {
-      background-color: #007c91;
-      transform: scale(1.05);
-    }
-
-    .gallery {
-      padding: 2rem;
-      text-align: center;
-      background-color: #f1f1f1;
-    }
-
-    .gallery h2 {
-      color: #006064;
-      margin-bottom: 1rem;
-    }
-
-    .gallery-images {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .gallery-images img {
-      width: 300px;
-      height: 200px;
+      margin: 10px;
+      padding: 1rem;
       border-radius: 10px;
-      object-fit: cover;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      font-weight: bold;
     }
 
-    .contact {
-      background-color: #ffffff;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .contact h2 {
-      color: #006064;
+    li img {
+      width: 25px;
+      margin-right: 10px;
     }
 
     footer {
-      background-color: #004d40;
+      background-color: #00796b;
       color: white;
       padding: 1rem;
       text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #f1f8e9;
+      padding: 2rem;
+    }
+
+    .gallery img {
+      margin: 10px;
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact a {
+      color: #00796b;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>TEJABHUTHESH POOL SERVICES</h1>
-    <p>Your pool, perfectly clean!</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/727/727790.png" alt="Pool Icon">
+    <h1>CrystalClear Pool Care</h1>
+    <p class="tagline">Professional Pool Cleaning Services in Gachibowli</p>
   </header>
 
   <section class="services">
-    <h2>Our Services</h2>
-    <div class="tiles">
-      <div class="tile">✔️ Weekly Pool Cleaning</div>
-      <div class="tile">✔️ Chemical Balancing</div>
-      <div class="tile">✔️ Filter Maintenance</div>
-      <div class="tile">✔️ Pool Equipment Repair</div>
-    </div>
+    <h2>Our Premium Services</h2>
+    <ul>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Tick"> Weekly Pool Cleaning</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Tick"> Chemical Balancing</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Tick"> Filter Maintenance</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Tick"> Pool Equipment Repair</li>
+    </ul>
   </section>
 
   <section class="gallery">
     <h2>Our Work in Gachibowli</h2>
-    <div class="gallery-images">
-      <img src="https://insights.workwave.com/wp-content/uploads/2021/01/swimming-pool-maintenance-picture-id1132898837.jpg" alt="Pool Cleaning 1">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU9TgVoqD21cI9Cs4ok-" alt="Pool Cleaning 2">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnhS51wiOuntZyZPNjekb9aeJoOpintGB0A&s3njF4sTUGVJZxlg&s" alt="Pool Cleaning 3">
-    </div>
+    <img src="https://insights.workwave.com/wp-content/uploads/2021/01/swimming-pool-maintenance-picture-id1132898837.jpg" alt="Pool Cleaning 1">
+    <img src="https://broadly.com/wp-content/uploads/2019/04/Pool-cleaner-at-work.jpg" alt="Pool Cleaning 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnhS51wiOuntZyZPNjekb9aeJoOpintGB0A&s3njF4sTUGVJZxlg&s" alt="Pool Cleaning 3">
   </section>
 
   <section class="contact">
     <h2>Contact Us</h2>
-    <p>📞 Call: 6281245810-CLEAN</p>
-    <p>📧 Email: tejainfo@bluewave.com</p>
-    <p><a href="https://www.google.com/maps/place/Gachibowli,+Hyderabad,+Telangana" target="_blank">📍 Visit Us in Gachibowli, Hyderabad</a></p>
+    <p>📍 <a href="https://www.google.com/maps/place/Elegant+Furnishings+%7C+Curtain+Shop+Near+Me+%7C+Best+Curtain+Shop+in+Gachibowli+Hyderabad/@17.4393743,78.3608917,17z/data=!4m14!1m7!3m6!1s0x3bcb93ca34236217:0xeda495fa720a35f!2sElegant+Furnishings+%7C+Curtain+Shop+Near+Me+%7C+Best+Curtain+Shop+in+Gachibowli+Hyderabad!8m2!3d17.4393692!4d78.3634666!16s%2Fg%2F11sdc9q_ny!3m5!1s0x3bcb93ca34236217:0xeda495fa720a35f!8m2!3d17.4393692!4d78.3634666!16s%2Fg%2F11sdc9q_ny?entry=ttu" target="_blank">Visit Us at Gachibowli, Hyderabad</a></p>
+    <p>📞 <a href="tel:+916281245810">Call: +91 62812 45810</a></p>
+    <p>📧 <a href="mailto:tejainfo@bluewave.com">tejainfo@bluewave.com</a></p>
   </section>
 
   <footer>
-    <p>© 2025 TEJABHUTHESH POOL SERVICES. All rights reserved.</p>
+    <p>© 2025 CrystalClear Pool Care. All rights reserved.</p>
   </footer>
+
 </body>
+
 </html>
